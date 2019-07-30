@@ -23,6 +23,8 @@
  */
 
 $string['pluginname'] = 'Heartbeat';
+$string['testabort'] = 'Test abort';
+$string['testaborthelp'] = '<p>This tests wether the whole stack is correctly passing a request cancel signal from the browser to php through whatever layers are in the middle, such as load balancers, cdn\'s, caches, php-fm etc.</p>';
 $string['testing'] = 'Test heartbeat';
 $string['testingdesc'] = 'You can use this to temporarily fake a warn or error condition to test that your monitoring is correctly working end to end.';
 $string['normal'] = 'Normal monitoring';
